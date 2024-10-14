@@ -1,5 +1,5 @@
 import './App.css';
-import { AppHeader, CreateProposal } from '@components';
+import { AppHeader, CreateProposalPage } from '@components';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
@@ -33,7 +33,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <AppHeader />
-      <CreateProposal />
+      <CreateProposalPage />
     </ThemeProvider>
   );
 }

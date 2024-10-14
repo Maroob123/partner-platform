@@ -1,2 +1,2 @@
 export {default as AppHeader} from './AppHeader';
-export {default as CreateProposal} from './CreateProposal';
+export {default as CreateProposalPage} from './CreateProposal/CreateProposalPage';

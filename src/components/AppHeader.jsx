@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import partnerLogo from '@assets/header_logo.png'
+import { useState, memo } from 'react';
+import partnerLogo from '@assets/header_logo.png';
 
 import {
   AppBar,
@@ -33,7 +33,7 @@ function HideOnScroll(props) {
 const drawerWidth = 240;
 
 
-export default function AppHeader() {
+function AppHeader() {
 //   const { headerTitle, changeComponent, currentComponent } = useContext(AppContext);
   const [dialogOpen, setDialogOpen] = useState(false);
 
@@ -53,7 +53,7 @@ export default function AppHeader() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <HideOnScroll>
+      {/* <HideOnScroll> */}
         <AppBar position="fixed" elevation={1} sx={{ bgcolor: 'white', zIndex: (theme) => theme.zIndex.drawer + 1 }}>
           <Toolbar sx={{display: 'flex', justifyContent: "space-between"}}>
           <Box
@@ -72,7 +72,7 @@ export default function AppHeader() {
             </Box>
           </Toolbar>
         </AppBar>
-      </HideOnScroll>
+      {/* </HideOnScroll> */}
       <Dialog fullWidth maxWidth="xs" open={dialogOpen}>
         <DialogTitle>Confirm Logout</DialogTitle>
         <DialogContent>
@@ -88,3 +88,4 @@ export default function AppHeader() {
     </Box>
   );
 }
+export default memo(AppHeader);
