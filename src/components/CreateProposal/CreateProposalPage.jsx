@@ -89,7 +89,7 @@ function CreateProposalPage() {
         </Box>
         <Box mt={8} px={2}>
           <Card >
-           <CardHeader title="Products" />
+           <CardHeader title={<Typography variant="h5" sx={{display: "inline", fontWeight: 'bold'}}>Products</Typography>} />
            <CardContent>
            <Grid2
               container
@@ -242,7 +242,12 @@ function CreateProposalPage() {
            </CardContent>
           </Card>
           <Card sx={{mt: 4}}>
-           <CardHeader title="Special Ad Category (SEM, Social Budget)" />
+           <CardHeader title={<>
+            <Typography variant="h5" sx={{display: "inline", fontWeight: 'bold'}}>Special Ad Category</Typography>
+            <Typography sx={{display: "inline"}}> (SEM, Social Budget) </Typography>
+            </>
+            }
+            />
            <CardContent>
             <RadioGroup
               aria-labelledby="demo-radio-buttons-group-label"
@@ -263,29 +268,30 @@ function CreateProposalPage() {
            </CardContent>
           </Card>
           <Card sx={{mt: 4}}>
-           <CardHeader title="Target Audience Region Data (Social Budget, SEM)" />
+           <CardHeader title={<>
+            <Typography variant="h5" sx={{display: "inline", fontWeight: 'bold'}}>Target Audience Region Data</Typography>
+            <Typography sx={{display: "inline"}}> (Social Budget, SEM) </Typography>
+            </>
+            } />
            <CardContent></CardContent>
           </Card>
           
           <SectionAddressableSegments />
-          <SectionAudianceInterests />
-
-
+          <SectionAudianceInterests />  
           <Card sx={{mt: 4}}>
-           <CardHeader title={<>Audience Interests
-            <CustomizedTooltipSmall title="Audience interests are used to ensure that your advertiser's ads show on the most relevant content.Top-level audience interests consist of a grouping of similar interests for you to pick. To emphasize a specific interest, click the down arrow next to the interest group to drill down, then select the most relevant interests." placement="top">
-                  <IconButton>
-                    <Info />
-                  </IconButton>
-                </CustomizedTooltipSmall>  (Display, Pre Roll, YouTube, CTV) </>} />
+           <CardHeader title={<>
+            <Typography variant="h5" sx={{display: "inline", fontWeight: 'bold'}}>Audience</Typography>
+            <Typography sx={{display: "inline"}}> (Display, Keyword Display, Addressable Display, Pre Roll, Keyword Pre Roll, Addressable Pre Roll, YouTube, CTV, Addressable CTV, OTT Plus, Addressable OTT Plus, OTT, Addressable OTT, Social Budget) </Typography>
+            </>
+            } />
            <CardContent></CardContent>
           </Card>    
           <Card sx={{mt: 4}}>
-           <CardHeader title="Audience (Display, Pre Roll, YouTube, CTV, Social Budget)" />
-           <CardContent></CardContent>
-          </Card>    
-          <Card sx={{mt: 4}}>
-           <CardHeader title="Keywords (SEM)" />
+           <CardHeader title={<>
+            <Typography variant="h5" sx={{display: "inline", fontWeight: 'bold'}}>Keywords</Typography>
+            <Typography sx={{display: "inline"}}> (Keyword Display, Keyword Pre Roll, SEM) </Typography>
+            </>
+            } />
            <CardContent></CardContent>
           </Card>    
         </Box>

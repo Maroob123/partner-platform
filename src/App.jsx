@@ -26,6 +26,24 @@ const theme = createTheme({
         },
       },
     },
+    MuiChip: {
+      styleOverrides: {
+        outlined: {
+         borderWidth: 2
+        }
+      },
+    },
+    MuiTextField: {
+      styleOverrides: {
+        root: {
+          '& .MuiOutlinedInput-root': {
+            '& fieldset': {
+              borderWidth: 2, // Increase the border width
+            },
+          },
+        }
+      }
+    }
   },
 });
 
