@@ -1,5 +1,5 @@
 import { useState, memo } from 'react';
-import partnerLogo from '@assets/header_logo.png';
+// import partnerLogo from '@assets/header_logo.png';
 
 import {
   AppBar,
@@ -63,7 +63,7 @@ function AppHeader() {
             maxWidth: 300,
             }}
             alt="Main Logo"
-            src={partnerLogo}
+            src="./assets/header_logo.png"
             />
             <Box sx={{display: "flex", gap: "10px"}}>
               <Button variant="outlined" onClick={handleDialogOpen}>

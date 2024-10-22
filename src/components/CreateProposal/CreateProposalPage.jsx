@@ -98,7 +98,7 @@ function CreateProposalPage() {
             >
               <Grid2 size={{xs:6, sm:4, md:2}}>
                   <Card elevation={0}>
-                    <CardMedia component="img" height={100} image="/src/assets/display.webp" sx={{objectFit: "contain", width: "auto", p:2}} />
+                    <CardMedia component="img" height={100} image="./assets/display.webp" sx={{objectFit: "contain", width: "auto", p:2}} />
                     <CardContent>
                       <Typography gutterBottom variant="h6" component="div">
                         Display
@@ -114,7 +114,7 @@ function CreateProposalPage() {
               </Grid2>
               <Grid2 size={{xs:6, sm:4, md:2}}>
                   <Card elevation={0}>
-                    <CardMedia component="img" height={100} image="/src/assets/pre_roll.webp" sx={{objectFit: "contain",  width: "auto", p:2}} />
+                    <CardMedia component="img" height={100} image="./assets/pre_roll.webp" sx={{objectFit: "contain",  width: "auto", p:2}} />
                     <CardContent>
                       <Typography gutterBottom variant="h6" component="div">
                         Video
@@ -130,7 +130,7 @@ function CreateProposalPage() {
               </Grid2>
               <Grid2 size={{xs:6, sm:4, md:2}}>
                   <Card elevation={0}>
-                    <CardMedia component="img" height={100} image="/src/assets/ctv.webp" sx={{objectFit: "contain",  width: "auto", p:2}} />
+                    <CardMedia component="img" height={100} image="./assets/ctv.webp" sx={{objectFit: "contain",  width: "auto", p:2}} />
                     <CardContent>
                       <Typography gutterBottom variant="h6" component="div">
                         CTV/OTT
@@ -148,7 +148,7 @@ function CreateProposalPage() {
               </Grid2>
               <Grid2 size={{xs:6, sm:4, md:2}}>
                   <Card elevation={0}>
-                    <CardMedia component="img" height={100} image="/src/assets/streaming_audio.webp" sx={{objectFit: "contain",  width: "auto", p:2}} />
+                    <CardMedia component="img" height={100} image="./assets/streaming_audio.webp" sx={{objectFit: "contain",  width: "auto", p:2}} />
                     <CardContent>
                       <Typography gutterBottom variant="h6" component="div">
                         Audio
@@ -162,7 +162,7 @@ function CreateProposalPage() {
               </Grid2>
               <Grid2 size={{xs:6, sm:4, md:2}}>
                   <Card elevation={0}>
-                    <CardMedia component="img" height={100} image="/src/assets/social_impression.webp" sx={{objectFit: "contain",  width: "auto", p:2}} />
+                    <CardMedia component="img" height={100} image="./assets/social_impression.webp" sx={{objectFit: "contain",  width: "auto", p:2}} />
                     <CardContent>
                       <Typography gutterBottom variant="h6" component="div">
                         Social
@@ -178,7 +178,7 @@ function CreateProposalPage() {
               </Grid2>
               <Grid2 size={{xs:6, sm:4, md:2}}>
                   <Card elevation={0}>
-                    <CardMedia component="img" height={100} image="/src/assets/sem.webp" sx={{objectFit: "contain",  width: "auto", p:2}} />
+                    <CardMedia component="img" height={100} image="./assets/sem.webp" sx={{objectFit: "contain",  width: "auto", p:2}} />
                     <CardContent>
                       <Typography gutterBottom variant="h6" component="div">
                         Search
@@ -191,7 +191,7 @@ function CreateProposalPage() {
               </Grid2>
               <Grid2 size={{xs:6, sm:4, md:2}}>
                   <Card elevation={0}>
-                    <CardMedia component="img" height={100} image="/src/assets/seo.webp" sx={{objectFit: "contain", width: "auto", p:2}} />
+                    <CardMedia component="img" height={100} image="./assets/seo.webp" sx={{objectFit: "contain", width: "auto", p:2}} />
                     <CardContent>
                       <Typography gutterBottom variant="h6" component="div">
                         SEO
@@ -207,7 +207,7 @@ function CreateProposalPage() {
               </Grid2>
               <Grid2 size={{xs:6, sm:4, md:2}}>
                   <Card elevation={0}>
-                    <CardMedia component="img" height={100} image="/src/assets/website.webp" sx={{objectFit: "contain", width: "auto", p:2}} />
+                    <CardMedia component="img" height={100} image="./assets/website.webp" sx={{objectFit: "contain", width: "auto", p:2}} />
                     <CardContent>
                       <Typography gutterBottom variant="h6" component="div">
                         Website
@@ -224,7 +224,7 @@ function CreateProposalPage() {
               </Grid2>
               <Grid2 size={{xs:6, sm:4, md:2}}>
                   <Card elevation={0}>
-                    <CardMedia component="img" height={100} image="/src/assets/email_marketing.webp" sx={{objectFit: "contain",  width: "auto", p:2}} />
+                    <CardMedia component="img" height={100} image="./assets/email_marketing.webp" sx={{objectFit: "contain",  width: "auto", p:2}} />
                     <CardContent>
                       <Typography gutterBottom variant="h6" component="div">
                         Email
